@@ -1,0 +1,24 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'bosque-2,5_mesh_0007.obj'
+
+# Vertices (Count = 4)
+v -29 -9 0
+v -30 -9 0
+v -30 -8 0
+v -29 -8 0
+
+# Texture cooridinates (Count = 4)
+vt 0.6011561 0.800578
+vt 0.6315029 0.800578
+vt 0.6315029 0.8309249
+vt 0.6011561 0.8309249
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g bosque-2,5_mesh_0007
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+
