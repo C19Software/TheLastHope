@@ -82,8 +82,13 @@ public class playercontroller : MonoBehaviour
     public void C19_Shooting()
     {
         if (Input.GetButtonDown("Fire1"))
-        {
+        {  //playerAnim es lo mismo que anim en este caso
+            anim.SetBool("isShooting", true);
             Instantiate(bulletPrefab, bulletSpawner.position, bulletSpawner.rotation);
+        }
+        else if (Input.GetButtonUp("Fire1"))
+        {
+            anim.SetBool("isShooting", false);
         }
     }
 }
