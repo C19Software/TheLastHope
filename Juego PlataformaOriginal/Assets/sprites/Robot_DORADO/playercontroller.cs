@@ -81,7 +81,7 @@ public class playercontroller : MonoBehaviour
 
     public void C19_Shooting()
     {
-        if (Input.GetButtonDown("fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Instantiate(bulletPrefab, bulletSpawner.position, bulletSpawner.rotation);
         }
