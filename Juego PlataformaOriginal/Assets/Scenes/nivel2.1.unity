@@ -532,7 +532,7 @@ MonoBehaviour:
   maxSpeed: 5
   speed: 25
   ground: 0
-  jumpPower: 12
+  jumpPower: 11
 --- !u!50 &1229079426
 Rigidbody2D:
   serializedVersion: 4
