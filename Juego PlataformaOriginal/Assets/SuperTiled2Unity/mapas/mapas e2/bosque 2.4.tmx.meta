@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: dee2a5bb7fce22d4ca7bc4feb68342d0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles:
+  - Assets/SuperTiled2Unity/mapas/sprites.png
+  errors:
+  - 'Missing texture asset: ../sprites.png'
+  - Could not find tile 432. Make sure the tilesets were successfully imported.
+  - Could not find tile 879. Make sure the tilesets were successfully imported.
+  - Could not find tile 127. Make sure the tilesets were successfully imported.
+  - Could not find tile 153. Make sure the tilesets were successfully imported.
+  - Could not find tile 157. Make sure the tilesets were successfully imported.
+  - Could not find tile 312. Make sure the tilesets were successfully imported.
+  - Could not find tile 123. Make sure the tilesets were successfully imported.
+  - Could not find tile 153. Make sure the tilesets were successfully imported.
+  - Could not find tile 11. Make sure the tilesets were successfully imported.
+  warnings:
+  - Tileset 'sprites' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 3
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
