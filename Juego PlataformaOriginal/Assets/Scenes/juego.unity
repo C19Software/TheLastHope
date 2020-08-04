@@ -341,6 +341,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 7899300026633213061, guid: 52887960e679c36438c8d2c9a4a2b3b6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923296054627014134, guid: 52887960e679c36438c8d2c9a4a2b3b6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8240240324220076585, guid: 52887960e679c36438c8d2c9a4a2b3b6,
         type: 3}
       propertyPath: m_TagString
@@ -400,6 +410,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8658935559787517632, guid: 52887960e679c36438c8d2c9a4a2b3b6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52887960e679c36438c8d2c9a4a2b3b6, type: 3}
