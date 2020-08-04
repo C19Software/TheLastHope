@@ -20,7 +20,7 @@ public class TL : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("nivel2.3", LoadSceneMode.Single);
+            SceneManager.LoadScene("nivel2.4", LoadSceneMode.Single);
         }
     }
 }
