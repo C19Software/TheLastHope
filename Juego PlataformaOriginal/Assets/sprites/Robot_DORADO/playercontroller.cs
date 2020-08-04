@@ -15,6 +15,9 @@ public class playercontroller : MonoBehaviour
     private Rigidbody2D rb2d;
     private Animator anim;
     private bool jump;
+
+    public Transform bulletSpawner;
+    public GameObject bulletPrefab;
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +28,7 @@ public class playercontroller : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
+    {
 
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Ground", ground);
@@ -34,6 +37,8 @@ public class playercontroller : MonoBehaviour
         {
             jump = true;
         }
+
+        C19_Shooting();
     }
     void FixedUpdate()
     {
@@ -72,5 +77,13 @@ public class playercontroller : MonoBehaviour
     void OnBecameInvisible()
     {
         transform.position = new Vector3(-8, 9, 0);
+    }
+
+    public void C19_Shooting()
+    {
+        if (Input.GetButtonDown("fire1"))
+        {
+            Instantiate(bulletPrefab, bulletSpawner.position, bulletSpawner.rotation);
+        }
     }
 }
