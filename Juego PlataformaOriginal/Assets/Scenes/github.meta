@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Juego PlataformaOriginal/Assets/Scenes/github.meta
 guid: b45d71f5f35775e40aa4187de7f60a68
+=======
+guid: ac2db5366529f9d4eb2489027772d569
+>>>>>>> 1629e33f2c0d0cf28b0b62d90d4db81841a32011:Juego PlataformaOriginal/Assets/SuperTiled2Unity/mapas/e4-JohnSnow.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

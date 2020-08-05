@@ -1,0 +1,61 @@
+fileFormatVersion: 2
+guid: a9da848c3d3a720439bf1ac517522ae5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors:
+  - 'Missing texture asset: E:/maps/mapas e1/FONDOS/sprites.png'
+  - 'Missing texture asset: E:/maps/mapas e1/FONDOS/sprites.png'
+  - Could not find tile 644. Make sure the tilesets were successfully imported.
+  - Could not find tile 674. Make sure the tilesets were successfully imported.
+  - Could not find tile 820. Make sure the tilesets were successfully imported.
+  - Could not find tile 850. Make sure the tilesets were successfully imported.
+  - Could not find tile 790. Make sure the tilesets were successfully imported.
+  - Could not find tile 762. Make sure the tilesets were successfully imported.
+  - Could not find tile 761. Make sure the tilesets were successfully imported.
+  - Could not find tile 730. Make sure the tilesets were successfully imported.
+  - Could not find tile 791. Make sure the tilesets were successfully imported.
+  - Could not find tile 821. Make sure the tilesets were successfully imported.
+  - Could not find tile 762. Make sure the tilesets were successfully imported.
+  - Could not find tile 851. Make sure the tilesets were successfully imported.
+  - Could not find tile 318. Make sure the tilesets were successfully imported.
+  - Could not find tile 254. Make sure the tilesets were successfully imported.
+  - Could not find tile 763. Make sure the tilesets were successfully imported.
+  - Could not find tile 792. Make sure the tilesets were successfully imported.
+  - Could not find tile 824. Make sure the tilesets were successfully imported.
+  - Could not find tile 854. Make sure the tilesets were successfully imported.
+  - Could not find tile 793. Make sure the tilesets were successfully imported.
+  - Could not find tile 884. Make sure the tilesets were successfully imported.
+  - Could not find tile 893. Make sure the tilesets were successfully imported.
+  - Could not find tile 606. Make sure the tilesets were successfully imported.
+  - Could not find tile 746. Make sure the tilesets were successfully imported.
+  - Could not find tile 830. Make sure the tilesets were successfully imported.
+  - Could not find tile 803. Make sure the tilesets were successfully imported.
+  - Could not find tile 831. Make sure the tilesets were successfully imported.
+  - Could not find tile 705. Make sure the tilesets were successfully imported.
+  - Could not find tile 18. Make sure the tilesets were successfully imported.
+  - Could not find tile 760. Make sure the tilesets were successfully imported.
+  - Could not find tile 850. Make sure the tilesets were successfully imported.
+  warnings:
+  - Tileset 'sprites' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'sprites' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 4
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
