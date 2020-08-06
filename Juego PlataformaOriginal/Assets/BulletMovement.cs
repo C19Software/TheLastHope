@@ -37,4 +37,20 @@ public class BulletMovement : MonoBehaviour
     {
         Destroy(gameObject, bulletLife);
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if ( col.tag == "Platform")
+        {
+            GetComponent<ParticleSystem>().Play();
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<CircleCollider2D>().enabled = false;
+        }
+        if (col.tag == "Ground")
+        {
+            GetComponent<ParticleSystem>().Play();
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<CircleCollider2D>().enabled = false;
+        }
+    }
 }
